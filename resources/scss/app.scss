@@ -2,7 +2,11 @@
 @import "partials/colors";
 
 body {
-    background-color: #061123;
+    background-color: $dark-blue;
+}
+
+.ubuntu {
+    font-family: "Ubuntu", sans-serif;
 }
 
 main {
@@ -10,6 +14,7 @@ main {
 
     h1 {
         color: $light-blue;
+        font-size: 45px;
     }
 
     .ms_card {

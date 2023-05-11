@@ -4,7 +4,7 @@
 
 @section('content')
   <div class="container">
-    <h1 class="text-center">It's Movie time</h1>
+    <h1 class="text-center ubuntu">It's Movie time</h1>
     <div class="row justify-content-center my-5 gy-4">
 
       @foreach ( $movies as $movie)
